@@ -1,0 +1,160 @@
+body {
+  font-family: Ubuntu;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: #F7F3CE;
+}
+
+section {
+  display: block;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 2rem;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #4797B1;
+}
+
+.h2-welcome {
+  padding-top: 100px;
+}
+
+.h2-contact {
+  margin-bottom: -30px;
+}
+
+h3 {
+  padding-top: 20px;
+  padding-bottom: -20px;
+  color: #68A7AD;
+}
+
+h2:hover {
+  color: #FFDEDE;
+}
+
+p {
+  font-family: Montserrat;
+  line-height: 1.5;
+  padding-right: 15%;
+  padding-left: 15%;
+  color: #354259;
+}
+
+iframe {
+  padding-top: 50px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer {
+  background-color: #FFDEDE;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Adding a background color to the top navigation */
+#header {
+  display: block;
+  background-color: #FFDEDE;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#header-img {
+  position: absolute;
+  left: 10px;
+}
+
+/* Style the links inside the navigation bar */
+#nav-bar a {
+  float: right;
+  display: block;
+  color: #4797B1;
+  text-align: center;
+  padding: 40px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+/* Change the color of links on hover */
+#nav-bar a:hover {
+  background-color: #F7F3CE;
+  color: #4797B1;
+}
+
+#contact {
+  padding-bottom: 100px;
+}
+
+#email {
+  width: 200px;
+  height: 25px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 28px;
+  border: none;
+  text-align: center;
+}
+
+#submit {
+  font-family: Ubuntu;
+  background: #68A7AD;
+  background-image: -webkit-linear-gradient(top, #68A7AD, #99C4C8);
+  background-image: -moz-linear-gradient(top, #68A7AD, #99C4C8);
+  background-image: -ms-linear-gradient(top, #68A7AD, #99C4C8);
+  background-image: -o-linear-gradient(top, #68A7AD, #99C4C8);
+  background-image: linear-gradient(to bottom, #68A7AD, #99C4C8);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  border: none;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+#submit:hover {
+  background: #FFDEDE;
+  background-image: -webkit-linear-gradient(top, #FFDEDE, #FFEEEE);
+  background-image: -moz-linear-gradient(top, #FFDEDE, #FFEEEE);
+  background-image: -ms-linear-gradient(top, #FFDEDE, #FFEEEE);
+  background-image: -o-linear-gradient(top, #FFDEDE, #FFEEEE);
+  background-image: linear-gradient(to bottom, #FFDEDE, #FFEEEE);
+  color: #4797B1;
+  text-decoration: none;
+}
+
+@media (max-width: 815px) {
+  #header-img {
+    position: relative;
+  }
+
+  #nav-bar a {
+    float: right;
+    display: block;
+    color: #4797B1;
+    text-align: center;
+    padding: 20px 40px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+
+  .h2-welcome {
+    padding-top: 200px;
+  }
+}
